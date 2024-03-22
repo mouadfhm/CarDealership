@@ -106,7 +106,6 @@ export default {
         });
     },
     editUser(user) {
-      this.setUser(user);
       this.$router.push('/users/edit/' + user.id);
     },
   },
